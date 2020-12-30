@@ -8,7 +8,7 @@
 #ifdef NDEBUG
 	#define assert(test)	((void)0)
 #else			/*NDBUG not defined*/
-	void _Assert(char *);
+	void _Assert(const char *);
 		/*macros */
 	#define _STR(x) _VAL(x)
 	#define _VAL(x) #x

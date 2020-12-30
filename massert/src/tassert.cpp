@@ -29,7 +29,7 @@ static void dummy()
 }
 
 #undef NDEBUG
-// #include "massert.h"
+#include "massert.h"
 
 int main()
 {

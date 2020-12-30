@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void _Assert(char *mesg)
+void _Assert(const char *mesg)
 {
 	fputs(mesg, stderr);
 	fputs(" -- assertion failed\n", stderr);
